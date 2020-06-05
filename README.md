@@ -3,7 +3,10 @@ Machine Learning Web App using Python and streamlit
 
 Website link: https://binary-classification-web-app.herokuapp.com
 
-Libraries and Frameworks used:
+
+This Web App allows you to choose among three types of classifiers by changing the hyperparameters as you like. You can multiselect three metrics for evalutation.
+
+# Libraries and Frameworks used:
 
 pandas 
 
@@ -15,9 +18,8 @@ matplotlib
 
 sklearn
 
-This Web App allows you to choose among three types of classifiers by changing the hyperparameters as you like. You can multiselect three metrics for evalutation.
 
-Classifiers:
+# Classifiers:
 
 Support Vector Machine (SVM)
 
@@ -25,7 +27,8 @@ Logistic Regression
 
 Random Forest Regressor
 
-Evaluation metrics:
+
+# Evaluation metrics:
 
 ROC Curve
 
