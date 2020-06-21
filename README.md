@@ -6,7 +6,7 @@ Website link: https://binary-classification-web-app.herokuapp.com
 
 This Web App allows you to choose among three types of classifiers by changing the hyperparameters as you like. You can multiselect three metrics for evalutation. All the classification is done on mushroom dataset.
 
-# Libraries and Frameworks used:
+# Dependencies:
 
 pandas 
 
