@@ -1,4 +1,4 @@
-# Binary-Classification-Web-App
+# Binary-Classification-SemiAutoML-Web-App
 Machine Learning Web App using Python and streamlit
 
 Website link: https://binary-classification-web-app.herokuapp.com
