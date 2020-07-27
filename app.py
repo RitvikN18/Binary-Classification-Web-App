@@ -88,10 +88,10 @@ def main():
                 accuracy = model.score(x_test, y_test)
                 y_pred = model.predict(x_test)
                 st.write("Accuracy: ", accuracy.round(2))
-                st.write("Precision: ", precision_score(
-                    y_test, y_pred, labels=class_names).round(2))
-                st.write("Recall: ", recall_score(
-                    y_test, y_pred, labels=class_names).round(2))
+                #st.write("Precision: ", precision_score(
+                #    y_test, y_pred, labels=class_names).round(2))
+                #st.write("Recall: ", recall_score(
+                #    y_test, y_pred, labels=class_names).round(2))
                 plot_metrics(metrics)
 
         if classifier == 'Logistic Regression':
@@ -111,10 +111,10 @@ def main():
                 accuracy = model.score(x_test, y_test)
                 y_pred = model.predict(x_test)
                 st.write("Accuracy: ", accuracy.round(2))
-                st.write("Precision: ", precision_score(
-                    y_test, y_pred, labels=class_names).round(2))
-                st.write("Recall: ", recall_score(
-                    y_test, y_pred, labels=class_names).round(2))
+                #st.write("Precision: ", precision_score(
+                #    y_test, y_pred, labels=class_names).round(2))
+                #st.write("Recall: ", recall_score(
+                #    y_test, y_pred, labels=class_names).round(2))
                 plot_metrics(metrics)
 
         if classifier == 'Random Forest':
@@ -137,10 +137,10 @@ def main():
                 accuracy = model.score(x_test, y_test)
                 y_pred = model.predict(x_test)
                 st.write("Accuracy: ", accuracy.round(2))
-                st.write("Precision: ", precision_score(
-                    y_test, y_pred, labels=class_names).round(2))
-                st.write("Recall: ", recall_score(
-                    y_test, y_pred, labels=class_names).round(2))
+                #st.write("Precision: ", precision_score(
+                #    y_test, y_pred, labels=class_names).round(2))
+                #st.write("Recall: ", recall_score(
+                #    y_test, y_pred, labels=class_names).round(2))
                 plot_metrics(metrics)
 
         if st.sidebar.checkbox("Show raw data", False):
