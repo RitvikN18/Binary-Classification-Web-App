@@ -8,30 +8,22 @@ This Web App allows you to choose from among three types of classifiers by chang
 
 # Dependencies:
 
-pandas 
-
-numpy
-
-streamlit
-
-matplotlib
-
-sklearn
+1. pandas 
+2. numpy
+3. streamlit
+4. matplotlib
+5. sklearn
 
 
 # Classifiers:
 
-Support Vector Machine (SVM)
-
-Logistic Regression
-
-Random Forest Regressor
+1. Support Vector Machine (SVM)
+2. Logistic Regression
+3. Random Forest Regressor
 
 
 # Evaluation metrics:
 
-ROC Curve
-
-Confusion Matrix
-
-Precision-Recall Curve
+1. ROC Curve
+2. Confusion Matrix
+3. Precision-Recall Curve
